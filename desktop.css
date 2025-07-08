@@ -1,0 +1,94 @@
+/* @import './style.css'; */
+
+@media (min-width: 700px){
+    .navigation .navList li{
+        display: block;
+    }
+
+    .navigation .navList li:last-child{
+        display: none;
+    }
+
+    .navigation .navBtn{
+        display: block;
+    }
+
+    .headSec{
+        justify-content: center;
+        /* align-items: center; */
+        /* flex-direction: row; */
+    }
+
+    .headSec .head-images .hero-image{
+        width: 50%;
+    }
+
+    .headSec .head-images .hero-image.bg-image{
+        right: 4rem;
+        scale: 1.2;
+        top:0;
+    }
+
+    .headSec .head-body{
+        width: 20rem;
+        margin: 0;
+    }
+
+    .headSec .head-body .headingMain{
+        font-size: 2.45rem;
+    }
+
+    .headSec .head-body{
+        place-items: start;
+        text-align: start;
+    }
+
+    .aboutSec{
+        text-align: start;
+        padding: var(--padding);
+    }
+
+    .aboutSec .headAbout{
+        font-size: 2.4rem;
+    }
+
+    .aboutSec .peraAbout{
+        max-width: 56%;
+    }
+
+    .aboutSec .cardList{
+        justify-content: space-between;
+    }
+
+    .aboutSec .cardList .card{
+        justify-items: start;
+    }
+
+    .articalSec{
+        padding: var(--padding);
+        justify-items: start;
+    }
+
+    .footsec{
+        flex-direction: row;
+        justify-content: start;
+        padding: calc(var(--padding) / 3) var(--padding);
+        gap: calc(var(--footer-gap) * 4);
+    }
+
+    .footsec .footsecA{
+        align-items: start;
+        gap: 2rem;
+    }
+
+    .footsec .footsecB .footList{
+        grid-template-columns: 1fr 1fr;
+        place-items: start;
+        gap: 1rem;
+    }
+
+    .footsec .footsecC{
+        margin-left: auto;
+        align-items: end;
+    }
+}
